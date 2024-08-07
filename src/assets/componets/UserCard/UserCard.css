@@ -1,0 +1,52 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with minimum column width of 300px */
+    gap: 70px; /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+  }
+
+.user-card {
+    background-color: #ffffff; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    text-align: center;
+    max-width: 550px;
+    margin: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+  }
+  
+  .user-card img {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px; 
+    object-fit: cover; /* Cover the area without distortion */
+    margin-bottom: 15px; 
+  }
+  
+  .user-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0; /* Space above and below the name */
+  }
+  
+  .user-card p {
+    color: #555; 
+    margin: 10px 0;
+  }
+  
+  .user-card a {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  .user-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  

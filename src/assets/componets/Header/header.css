@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #343a40; 
+  color: #ffffff; 
+  padding: 20px;
+  text-align: center;
+
+}
+
+header h1 {
+  padding-bottom: 20px;
+}
+
+nav {
+   
+  padding: 10px 20px; /* Padding around the nav */
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: #adc5df; 
+  font-weight: bold; 
+  margin: 0 10px; 
+}
+
+nav a:hover {
+  color: #0056b3; 
+  text-decoration: underline; 
+}
